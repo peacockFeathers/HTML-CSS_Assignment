@@ -81,7 +81,27 @@
             </div>
         </div>
         <!-- Time to make some forms! Mozilla input type reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input -->
+        <br /><br />
+        
+        Get this form!
         <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="get">
+            <p>Text entry: <input type="text" name="text_input" maxlength="30" /></p>
+            <p>Number input: <input type="number" name="numerical_input" maxlength="4" /></p>
+            <p>Ninja input: <input type="password" name="password_input" maxlength="30" /></p>
+            <br />
+            
+            <p>Pick a candy:</p>
+            <input type="radio" name="candy" value="Snickers" /> Snickers
+            <input type="radio" name="candy" value="Skittles" /> Skittles
+            <input type="radio" name="candy" value="Mentos" /> Mentos
+            <br /><br />
+            
+            <input type="submit" value="Submit assignment" />
+            
+        </form>
+        <br /><br />
+        Post this form!
+        <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="post">
             <p>Text entry: <input type="text" name="text_input" maxlength="30" /></p>
             <p>Number input: <input type="number" name="numerical_input" maxlength="4" /></p>
             <p>Ninja input: <input type="password" name="password_input" maxlength="30" /></p>
