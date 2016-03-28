@@ -1,9 +1,8 @@
-body {
-    background-color: pink;}
-
-outer-content {
-    background-color: pink;}
+#outer-content {
     padding: 20px;
+    background: pink;}
     
-inner-content {
-    background-color: blue;}
+    
+#inner-content {
+    background: blue;
+    left: 50px;}
