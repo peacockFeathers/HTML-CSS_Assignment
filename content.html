@@ -1,66 +1,100 @@
-Column attacking row. Use table below to calculate damage multiplier.
-<table>
-    <!-- Pokemon Match-up Data, table data sourced from http://www.serebii.net/games/type.shtml -->
-    <thead>
-        <tr>
-            <th ></th><!-- "The upper left cell should be empty." - Specifications -->
-            <th scope="col">Fire</th>
-            <th scope="col">Water</th>
-            <th scope="col">Electric</th>
-            <th scope="col">Grass</th>
-            <th scope="col">Poison</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td><i>Fire</i></td>
-            <td>0.5x</td>
-            <td>2.0x</td>
-            <td>1.0x</td>
-            <td>0.5x</td>
-            <td>1.0x</td>
-        </tr>
-        <tr>
-            <td><i>Water</i></td>
-            <td>0.5x</td>
-            <td>0.5x</td>
-            <td>2.0x</td>
-            <td>2.0x</td>
-            <td>1.0x</td>
-        </tr>
-        <tr>
-            <td><i>Electric</i></td>
-            <td>1.0x</td>
-            <td>1.0x</td>
-            <td>0.5x</td>
-            <td>1.0x</td>
-            <td>1.0x</td>
-        </tr>
-        <tr>
-            <td><i>Grass</i></td>
-            <td>2.0x</td>
-            <td>0.5x</td>
-            <td>0.5x</td>
-            <td>0.5x</td>
-            <td>2.0x</td>
-        </tr>
-        <tr>
-            <td><i>Poison</i></td>
-            <td>1.0x</td>
-            <td>1.0x</td>
-            <td>1.0x</td>
-            <td>1.0x</td>
-            <td>0.5x</td>
-        </tr>
-    </tbody>
-    <tfoot>
-        <tr>
-            <td colspan="2">Footer 1</td>
-            <td colspan="4">Footer 2</td>
-    </tfoot>
-</table>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML-CSS Assignment</title>
+        <link href="style.css" type="text/css"
+            rel="stylesheet" />
+    </head>
+    <body>
+        Column attacking row. Use table below to calculate damage multiplier.
+        <table>
+            <!-- Pokemon Match-up Data, table data sourced from http://www.serebii.net/games/type.shtml -->
+            <thead>
+                <tr>
+                    <th ></th><!-- "The upper left cell should be empty." - Specifications -->
+                    <th scope="col">Fire</th>
+                    <th scope="col">Water</th>
+                    <th scope="col">Electric</th>
+                    <th scope="col">Grass</th>
+                    <th scope="col">Poison</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><i>Fire</i></td>
+                    <td>0.5x</td>
+                    <td>2.0x</td>
+                    <td>1.0x</td>
+                    <td>0.5x</td>
+                    <td>1.0x</td>
+                </tr>
+                <tr>
+                    <td><i>Water</i></td>
+                    <td>0.5x</td>
+                    <td>0.5x</td>
+                    <td>2.0x</td>
+                    <td>2.0x</td>
+                    <td>1.0x</td>
+                </tr>
+                <tr>
+                    <td><i>Electric</i></td>
+                    <td>1.0x</td>
+                    <td>1.0x</td>
+                    <td>0.5x</td>
+                    <td>1.0x</td>
+                    <td>1.0x</td>
+                </tr>
+                <tr>
+                    <td><i>Grass</i></td>
+                    <td>2.0x</td>
+                    <td>0.5x</td>
+                    <td>0.5x</td>
+                    <td>0.5x</td>
+                    <td>2.0x</td>
+                </tr>
+                <tr>
+                    <td><i>Poison</i></td>
+                    <td>1.0x</td>
+                    <td>1.0x</td>
+                    <td>1.0x</td>
+                    <td>1.0x</td>
+                    <td>0.5x</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Footer 1</td>
+                    <td colspan="4">Footer 2</td>
+            </tfoot>
+        </table>
 
-<ol>
-    <li>Learn HTML, CSS, and Javascript.</li>
-    <li>Get a job.</li>
-    <li>Conquer the world!</li>
+        <ol>
+            <li>Learn HTML, CSS, and Javascript.</li>
+            <li>Get a job.</li>
+            <li>Conquer the world!</li>
+        </ol>
+        
+        <div class="outer-content">
+            Outer Content
+            <div class="inner-content">
+                Inner Content
+            </div>
+        </div>
+        <!-- Time to make some forms! Mozilla input type reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input -->
+        <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="get">
+            <p>Text entry: <input type="text" name="text_input" maxlength="30" /></p>
+            <p>Number input: <input type="number" name="numerical_input" maxlength="4" /></p>
+            <p>Ninja input: <input type="password" name="password_input" maxlength="30" /></p>
+            <br />
+            
+            <p>Pick a candy:</p>
+            <input type="radio" name="candy" value="Snickers" /> Snickers
+            <input type="radio" name="candy" value="Skittles" /> Skittles
+            <input type="radio" name="candy" value="Mentos" /> Mentos
+            <br /><br />
+            
+            <input type="submit" value="Submit assignment" />
+            
+        </form>
+    </body>
+</html>
