@@ -4,7 +4,7 @@
 
 <!-- Create a table that has that is 6x6 (inclusive of the header row). -->
 <!-- The upper left cell should be empty. The others should be non-empty. -->
-<!-- The table should have a header section, all the cells in this section should have bold text. (This is the default for the section) -->
+<!-- The table should have a header section, all the cells in this section should have bold text. (This is the default for th) -->
 <!-- The first column of the table should have header cells that have italic text. (These should not be bold) -->
 <!-- The table should have a footer section made up of two cells, one should be 2 columns wide, the other should be 4 columns wide. -->
 
