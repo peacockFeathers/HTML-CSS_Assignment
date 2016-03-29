@@ -1,8 +1,9 @@
 #outer-content {
     padding: 20px;
-    background: pink;}
-    
-    
+    background: pink;
+    width: 75%;}
+        
 #inner-content {
     background: blue;
-    left: 50px;}
+    text-align: center;
+    margin: 10px auto 10px auto}

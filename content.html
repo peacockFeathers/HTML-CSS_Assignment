@@ -7,67 +7,68 @@
     </head>
     <body>
         Column attacking row. Use table below to calculate damage multiplier.
-        <table>
-            <!-- Pokemon Match-up Data, table data sourced from http://www.serebii.net/games/type.shtml -->
-            <thead>
-                <tr>
-                    <th ></th><!-- "The upper left cell should be empty." - Specifications -->
-                    <th scope="col">Fire</th>
-                    <th scope="col">Water</th>
-                    <th scope="col">Electric</th>
-                    <th scope="col">Grass</th>
-                    <th scope="col">Poison</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><i>Fire</i></td>
-                    <td>0.5x</td>
-                    <td>2.0x</td>
-                    <td>1.0x</td>
-                    <td>0.5x</td>
-                    <td>1.0x</td>
-                </tr>
-                <tr>
-                    <td><i>Water</i></td>
-                    <td>0.5x</td>
-                    <td>0.5x</td>
-                    <td>2.0x</td>
-                    <td>2.0x</td>
-                    <td>1.0x</td>
-                </tr>
-                <tr>
-                    <td><i>Electric</i></td>
-                    <td>1.0x</td>
-                    <td>1.0x</td>
-                    <td>0.5x</td>
-                    <td>1.0x</td>
-                    <td>1.0x</td>
-                </tr>
-                <tr>
-                    <td><i>Grass</i></td>
-                    <td>2.0x</td>
-                    <td>0.5x</td>
-                    <td>0.5x</td>
-                    <td>0.5x</td>
-                    <td>2.0x</td>
-                </tr>
-                <tr>
-                    <td><i>Poison</i></td>
-                    <td>1.0x</td>
-                    <td>1.0x</td>
-                    <td>1.0x</td>
-                    <td>1.0x</td>
-                    <td>0.5x</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td colspan="2">Footer 1</td>
-                    <td colspan="4">Footer 2</td>
-            </tfoot>
-        </table>
-
+        <div id="match-up">
+            <table>
+                <!-- Pokemon Match-up Data, table data sourced from http://www.serebii.net/games/type.shtml -->
+                <thead>
+                    <tr>
+                        <th ></th><!-- "The upper left cell should be empty." - Specifications -->
+                        <th scope="col">Fire</th>
+                        <th scope="col">Water</th>
+                        <th scope="col">Electric</th>
+                        <th scope="col">Grass</th>
+                        <th scope="col">Poison</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><i>Fire</i></td>
+                        <td>0.5x</td>
+                        <td>2.0x</td>
+                        <td>1.0x</td>
+                        <td>0.5x</td>
+                        <td>1.0x</td>
+                    </tr>
+                    <tr>
+                        <td><i>Water</i></td>
+                        <td>0.5x</td>
+                        <td>0.5x</td>
+                        <td>2.0x</td>
+                        <td>2.0x</td>
+                        <td>1.0x</td>
+                    </tr>
+                    <tr>
+                        <td><i>Electric</i></td>
+                        <td>1.0x</td>
+                        <td>1.0x</td>
+                        <td>0.5x</td>
+                        <td>1.0x</td>
+                        <td>1.0x</td>
+                    </tr>
+                    <tr>
+                        <td><i>Grass</i></td>
+                        <td>2.0x</td>
+                        <td>0.5x</td>
+                        <td>0.5x</td>
+                        <td>0.5x</td>
+                        <td>2.0x</td>
+                    </tr>
+                    <tr>
+                        <td><i>Poison</i></td>
+                        <td>1.0x</td>
+                        <td>1.0x</td>
+                        <td>1.0x</td>
+                        <td>1.0x</td>
+                        <td>0.5x</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Footer 1</td>
+                        <td colspan="4">Footer 2</td>
+                </tfoot>
+            </table>
+        </div>
         <ol>
             <li>Learn HTML, CSS, and Javascript.</li>
             <li>Get a job.</li>
@@ -75,9 +76,8 @@
         </ol>
         
         <div id="outer-content">
-            Hello Outer Content
             <div id="inner-content">
-                Inner Content
+                Hello Inner Content
             </div>
         </div>
         <!-- Time to make some forms! Mozilla input type reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input -->
