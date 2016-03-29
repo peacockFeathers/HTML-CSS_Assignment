@@ -1,9 +1,16 @@
+table.alternating tr:nth-child(odd) {
+        background-color: cyan;}
+table.alternating tr:nth-child(even) {
+    background-color: silver;}
+table.alternating tr.white {
+    background-color: white;}
+
 #outer-content {
     padding: 20px;
     background: pink;
     width: 75%;}
         
 #inner-content {
-    background: blue;
+    background: cyan;
     text-align: center;
     margin: 10px auto 10px auto}
